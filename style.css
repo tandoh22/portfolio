@@ -11,9 +11,9 @@
 
 :root {
     --bg-color: #fff;
-    --snd-bg-color: #d5fdf9;
+    --snd-bg-color: #7fbbc5;
     --text-color: #000;
-    --main-color: #003b7f;
+    --main-color: #00227f;
 }
 
 body {
@@ -32,7 +32,7 @@ section {
     right: 0;
     width: 100%;
     padding: 2rem 5%;
-    background: var(--main-color);
+    background: var(--bg-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -41,9 +41,9 @@ section {
 }
 
 .logo {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
-    color: var(--bg-color);
+    color: var(--text-color);
     cursor: pointer;
     transition: 0.3s ease;
 }
@@ -53,14 +53,13 @@ section {
 }
 
 .navbar a {
-    font-size: 1.2rem;
-    color: var(--bg-color);
-    margin-left: 4rem;
-    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--main-color);
+    margin-left: 2rem;
+    font-weight: 500;
     transition: 0.3s ease;
 }
 
 .navbar a:hover, .navbar a.active {
-    color: var(--text-color);
-    
+    color: var(--snd-bg-color);
 }
