@@ -51,15 +51,31 @@ body {
     font-size: 1rem;
     color: var(--main-color);
     margin-left: 1.5rem;
-    font-weight: 500;
+    font-weight: 600;
     transition: 0.3s ease;
 }
 
 .navbar a:hover, .navbar a.active {
-    color: var(--snd-bg-color);
+    color: rgb(248, 103, 50);
 }
 
 .info{
     margin-left: 7%;
     margin-top: 10%;
+}
+
+.info h1{
+    font-size: 65px;
+    color: var(--text-color);
+}
+
+.info h3{
+    font-size: 18px;
+    color: rgb(36, 32, 30);
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.info span{
+    color: rgb(248, 103, 50);
 }
