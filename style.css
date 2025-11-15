@@ -60,8 +60,8 @@ body {
 }
 
 .info{
-    margin-left: 7%;
-    margin-top: 10%;
+    margin-left: 3%;
+    margin-top: 15%;
 }
 
 .info h1{
@@ -78,4 +78,19 @@ body {
 
 .info span{
     color: rgb(248, 103, 50);
+}
+
+.image{
+    width: 20%;
+    height: 90%;
+    position: absolute;
+    right: 300px;
+    bottom: 0;
+}
+.image pic{
+    position: absolute;
+    height: 100%;
+    left: 40px;
+    transform: translate(-50%);
+    bottom: 0;
 }
