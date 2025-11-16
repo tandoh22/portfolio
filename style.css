@@ -134,8 +134,9 @@ body {
     padding: 350px 0;
 }
 
-.row{
+.about{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
 }
