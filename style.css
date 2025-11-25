@@ -27,7 +27,7 @@ body {
 }
 
 section{
-    min-height: 100vh;
+    min-height: 90vh;
     padding: 10rem 9% 2rem;
 }
 .header {
@@ -166,7 +166,24 @@ section{
 .heading{
     font-size: 5rem;
     text-align: center;
+    padding-bottom: 20px;
 }
 .heading span{
+    color: rgb(248, 103, 50);
+}
+
+.about-content{
+    padding: 2.5rem;
+}
+
+.about-content p1, .about-content p2{
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: rgb(36, 32, 30);
+    margin: 2rem 0.3rem;
+    font-family: 'Franklin Gothic Regular', 'Arial Narrow', Arial, sans-serif;
+}
+.about-content p1 span{
+    font-weight: bold;
     color: rgb(248, 103, 50);
 }
