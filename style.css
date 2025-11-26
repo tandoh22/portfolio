@@ -305,3 +305,46 @@ section{
         padding: 2rem 3%;
     }
 }
+
+@media (max-width: 991px){
+    #menu-icon{
+        display: block;
+    }
+    .info{
+        flex-direction: column;
+    }
+    .info h3{
+        font-size: 1.6rem;
+    }
+    .info h1{
+        font-size: 5rem;
+    }
+    .info{
+        order: 2;
+        margin-left: 1rem;
+    }
+    .image{
+    width: 20%;
+    height: 65%;
+    position: absolute;
+    right: 48px;
+    bottom: 0;
+    }
+}
+
+@media (max-width: 617px){
+    .image{
+    width: 1%;
+    height: 65%;
+    position: absolute;
+    right: 1px;
+    bottom: 0;
+    }
+}
+
+
+@media (max-width: 617px){
+    html{
+        font-size: 50%;
+    }
+}
