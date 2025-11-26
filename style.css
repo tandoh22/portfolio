@@ -244,6 +244,13 @@ section{
     box-shadow: 0 0 15px rgb(255, 121, 80);
 }
 
+#msg{
+    color: green;
+    margin-top: -10px;
+    display: block;
+    text-align: center;
+}
+
 .footer{
     position: relative;
     bottom: 0;
